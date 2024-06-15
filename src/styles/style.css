@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #E8E5D7; /* Change this to the color you want */
+}
+.dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.dictionary span, .textInput span {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.dictionary span:hover, .textInput span:hover {
+    background-color: #ddd;
+}
+.textInput {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 30px;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
